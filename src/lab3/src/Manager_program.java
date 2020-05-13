@@ -37,7 +37,6 @@ public class Manager_program {
         printString("Введіть своє ім`я та прізвище.");
         String name_new = scanner.nextLine();
         printString("Вітаю вас, " + name_new + "!");
-        //printString(Вызов метода для вывода)
         printString("Загальний список");
         printString("+++-----------------------------------------+++");
         List<Group> allGroups = ms.getGroups();
@@ -60,7 +59,6 @@ public class Manager_program {
         printString("+++-----------------------------------------+++");
         List<Group> groups = ms.getGroups();
         // Проверяем все группы
-        // Немного объяснения, хотя зачем я это сделал?
         printString("ІПП           Рік народження       Група         Рік вступу");
         for (Group gi : groups) {
             printString("---> Група:" + gi.getNameGroup() + "<---");
@@ -154,7 +152,6 @@ public class Manager_program {
         int height_students_red = scanner.nextInt();
         // Изменим данные нашего нового студента
         // Ориентируемся на id
-        // Изначально хотел предоставить выбор пользователю, но мне стало лень)
         s = new Student();
         // Изменяем данные пользователя у коророго id = 5
         s.setStudentId(id_students_red);
