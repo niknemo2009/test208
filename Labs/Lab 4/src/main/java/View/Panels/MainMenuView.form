@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="View.Panels.MainMenuView">
+  <grid id="27dc6" binding="menuPanel" layout-manager="GridLayoutManager" row-count="7" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="3da77" class="javax.swing.JButton" binding="toAllProductsBtn">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="150" height="30"/>
+            <preferred-size width="350" height="50"/>
+            <maximum-size width="350" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Fira Code Light" size="16" style="0"/>
+          <text value="View all products"/>
+        </properties>
+      </component>
+      <component id="f5a36" class="javax.swing.JButton" binding="logoutBtn">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="150" height="30"/>
+            <preferred-size width="350" height="50"/>
+            <maximum-size width="350" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Fira Code Light" size="16" style="0"/>
+          <text value="Logout"/>
+        </properties>
+      </component>
+      <component id="4ba04" class="javax.swing.JButton" binding="toCreateOrderBtn">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="150" height="30"/>
+            <preferred-size width="350" height="50"/>
+            <maximum-size width="350" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Fira Code Light" size="16" style="0"/>
+          <text value="Create new order"/>
+        </properties>
+      </component>
+      <component id="91ef7" class="javax.swing.JButton" binding="toAllOrdersBtn">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="150" height="30"/>
+            <preferred-size width="350" height="50"/>
+            <maximum-size width="350" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Fira Code Light" size="16" style="0"/>
+          <text value="View orders"/>
+        </properties>
+      </component>
+      <component id="2f8a8" class="javax.swing.JLabel" binding="menuLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Fira Code Medium" size="48" style="1"/>
+          <horizontalAlignment value="10"/>
+          <text value="Menu"/>
+        </properties>
+      </component>
+      <vspacer id="65268">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="5c311">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+    </children>
+  </grid>
+</form>

@@ -1,0 +1,5 @@
+1 seller1@gmail.com password1 SELLER
+2 seller2@gmail.com password2 SELLER
+3 customer1@gmail.com password3 CUSTOMER
+4 customer2@gmail.com password5 CUSTOMER
+5 test@test.com 12345678 CUSTOMER
