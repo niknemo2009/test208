@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lab4.Controller">
+    <children>
+        <Button fx:id="addRocket" layoutX="72.0" layoutY="178.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="84.0" text="add rocket" />
+        <TextField fx:id="model" layoutX="39.0" layoutY="93.0" promptText="Model" />
+        <TextField fx:id="massTon" layoutX="39.0" layoutY="134.0" promptText="Mass" />
+        <TextField fx:id="power" layoutX="39.0" layoutY="51.0" promptText="Power" />
+        <TextField fx:id="rocketModelToDelete" layoutX="265.0" layoutY="46.0" prefHeight="35.0" prefWidth="164.0" promptText="input rocket model" />
+        <Button fx:id="deleteRocket" layoutX="286.0" layoutY="101.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="91.0" text="delete rocket" />
+        <ListView fx:id="turiansListView" layoutX="39.0" layoutY="264.0" prefHeight="237.0" prefWidth="234.0" />
+        <ListView fx:id="humanListView" layoutX="283.0" layoutY="264.0" prefHeight="237.0" prefWidth="234.0" />ConfigDB
+        <ListView fx:id="hodakeysListView" layoutX="531.0" layoutY="264.0" prefHeight="237.0" prefWidth="234.0" />
+    </children>
+</AnchorPane>
