@@ -2,6 +2,7 @@ package lr4;
 
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.MouseAdapter;
@@ -117,13 +118,19 @@ public class Window extends JFrame {
                 }
 
                 if(action.getSource() == weightCompareButton){
-                    int group = Integer.parseInt(groupTextField.getText());
+                    Integer group = Integer.parseInt(groupTextField.getText());
+
+
                     ArrayList<Student> sorted;
                     sorted = test.sortGroup(weightComparator, group);
                     while(dm.getRowCount() > 0){
                         dm.removeRow(0);
                     }
                     for(Student item : sorted){
+                        if(group < 0){
+                            JOptionPane.showMessageDialog(panel, "Input correct group");
+                            break;
+                        }
                         populate(item.surname, item.weight, item.height, item.group);
                     }
                 }

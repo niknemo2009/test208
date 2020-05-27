@@ -105,7 +105,7 @@ public class Window extends JFrame{
 
         for(Student item : Student.data){
             populate(item.surname, item.weight, item.height, item.group);
-            //insert(item.surname, item.weight, item.height, item.group);    //to initialize database
+            //insertToDatabase(item.surname, item.weight, item.height, item.group);    //to initialize database
         }
 
         EventListener event  = new EventListener();
