@@ -130,7 +130,7 @@ public class Main {
     }
 
 
-    public static void main(String[] args) throws AuthenticationException {
+    public static void main(String[] args) throws AutorizationException {
 
         User user = new User();
         user.CheckUser("mario","3233");
