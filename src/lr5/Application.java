@@ -50,8 +50,10 @@ public class Application extends JFrame {
         defaultTableModel1.addRow(strRow);
     }
      void ReadAuto() throws SQLException {
+        //statement интерфейс для обработки запросов
         Statement statement = connection.createStatement();
         String first = "Select * from Auto;";
+        //ResultSet это класс предоставляет построчный доступ к результатам запросов
         ResultSet resultSet = statement.executeQuery(first);
         while(resultSet.next()){
             String m = resultSet.getString("month");
@@ -60,7 +62,6 @@ public class Application extends JFrame {
                      resultSet.getInt("countOfParking"),
                      resultSet.getString("person"),
                      resultSet.getDouble("payment")));
-
          }
      }
      void ReadStatus() throws SQLException {
@@ -71,7 +72,8 @@ public class Application extends JFrame {
              Parking.tempCars.add(new Parking(resultSet.getString("name")));
          }
      }
-     void InsertAuto(Month month,String car, int countOfParking, String person, double payment) throws SQLException {
+     //Использовалось при инициализации базы данных
+     /*void InsertAuto(Month month,String car, int countOfParking, String person, double payment) throws SQLException {
          String query="insert into Auto(month, car, countOfParking, person, payment) " +
                  "values ('" + month + "','" + car + "',"+ countOfParking + ", '" + person + "', " + payment+ ");";
          Statement statement = connection.createStatement();
@@ -93,7 +95,8 @@ public class Application extends JFrame {
          statement.executeUpdate(query);
 
          System.out.println("info deleted");
-     }
+     }*/
+     //JDBC-Java Database Connectivity
     static void OpenDataBase(){
         try{
             Class.forName("org.sqlite.JDBC");
