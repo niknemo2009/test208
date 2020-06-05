@@ -40,6 +40,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RunDashboard">
@@ -54,13 +55,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Manager_program">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
+  <component name="RunManager" selected="Application.Window">
+    <configuration name="GUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GUI" />
       <module name="Laba_3" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -79,13 +77,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Window" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Window" />
+      <module name="Laba_3" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lr7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lr7" />
+      <module name="Laba_3" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Main" />
       <item itemvalue="Application.ManagementSystem" />
       <item itemvalue="Application.Manager_program" />
+      <item itemvalue="Application.Window" />
+      <item itemvalue="Application.lr7" />
+      <item itemvalue="Application.GUI" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Window" />
+        <item itemvalue="Application.GUI" />
+        <item itemvalue="Application.lr7" />
         <item itemvalue="Application.Manager_program" />
         <item itemvalue="Application.ManagementSystem" />
       </list>
@@ -118,6 +135,17 @@
       <workItem from="1589356508567" duration="1771000" />
       <workItem from="1589358327238" duration="1774000" />
       <workItem from="1589360135318" duration="1390000" />
+      <workItem from="1591110146667" duration="1443000" />
+      <workItem from="1591111672852" duration="1660000" />
+      <workItem from="1591113397692" duration="669000" />
+      <workItem from="1591114137357" duration="1316000" />
+      <workItem from="1591120297013" duration="632000" />
+      <workItem from="1591123932767" duration="4395000" />
+      <workItem from="1591129785107" duration="16917000" />
+      <workItem from="1591181099905" duration="6898000" />
+      <workItem from="1591354680957" duration="7144000" />
+      <workItem from="1591362600595" duration="9559000" />
+      <workItem from="1591372439827" duration="613000" />
     </task>
     <servers />
   </component>
